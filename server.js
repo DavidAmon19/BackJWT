@@ -2,7 +2,7 @@ const express = require("express");
 const dotenv  = require("dotenv");
 const cors    = require("cors");
 dotenv.config();
-const port    = 8090;
+const port    = 8080;
 const alunoRoutes = require("./routes/alunoRoutes")
 const app     = express();
 
